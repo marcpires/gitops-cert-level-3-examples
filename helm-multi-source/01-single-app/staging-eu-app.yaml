@@ -21,7 +21,7 @@ spec:
         - $values/helm-multi-source/my-values/env-type/non-prod-values.yaml  
         - $values/helm-multi-source/my-values/regions/eu-values.yaml                
         - $values/helm-multi-source/my-values/envs/staging-eu-values.yaml
-    - repoURL: 'https://github.com/marpires/gitops-cert-level-3-examples.git'
+    - repoURL: 'https://github.com/marcpires/gitops-cert-level-3-examples.git'
       targetRevision: HEAD
       ref: values
   syncPolicy:
